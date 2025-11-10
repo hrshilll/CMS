@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'complaint_system.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'complaint_system.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 # Database: always use SQLite locally
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
